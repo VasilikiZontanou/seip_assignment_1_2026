@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: echo-api-config
+data:
+  WELCOME_MESSAGE: "Welcome to the SEIP Assignment!"
+  NODE_ENV: "production"
