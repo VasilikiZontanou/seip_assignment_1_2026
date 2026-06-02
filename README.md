@@ -28,6 +28,8 @@ Ensure the following tools are installed on your local machine before proceeding
 │   ├── deployment.yaml       # Kubernetes Deployment (3 replicas)
 │   └── service.yaml          # ClusterIP Service
 ├── Dockerfile                # Production-optimized container blueprint
+├── screenshots/              # Evidence screenshots for submission
+├── assignment.md             # Assignment submission document
 ├── server.js                 # Node.js Express application (not modified)
 ├── package.json
 └── README.md
