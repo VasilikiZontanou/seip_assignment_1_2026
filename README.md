@@ -113,9 +113,9 @@ With port-forwarding active, test the following endpoints in your browser or wit
 
 | Endpoint | Description | Expected Response |
 |---|---|---|
-| `GET /` | Returns the welcome message and environment | `{"message":"...","environment":"production"}` |
+| `GET /` | Returns the welcome message and environment | `{"message":"Welcome to the SEIP Assignment!","environment":"production"}` |
 | `GET /health` | Health check used by Kubernetes probes | `{"status":"Healthy"}` |
-| `GET /secure-config` | Returns authorization status and masked secret suffix | `{"status":"Authorized","injected_secret_suffix":"**********XXXX"}` |
+| `GET /secure-config` | Returns authorization status and masked secret suffix | `{"status":"Authorized","injected_secret_suffix":"**********2345"}` |
 
 **Example curl commands:**
 
